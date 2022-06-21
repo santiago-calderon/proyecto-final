@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles-copy-2.css'>
+    <link rel="shortcut icon" href="./Images/logo-definitivo.png" type="image/x-icon">
+    <title>Glamping BA</title>
+</head>
+<body>
+        <header>
+                <picture class="logo">
+                    <img src="../Images/logo-definitivo.png" alt="logo" class="imagen-logo" height=120px>
+                </picture>
+                <ul class="menu">
+                    <li class="menu__item"><a class="item__link" href="../index.html">Inicio</a></li>
+                    <li class="menu__item"><a class="item__link" href="nosotros.html">Nosotros</a></li>
+                    <li class="menu__item"><a class="item__link" href="galeria.html">Galería</a></li>
+                    <li class="menu__item"><a class="item__link" href="ubicacion.html">Ubicacion</a></li>
+                    <li class="menu__item"><a class="item__link" href="servicios.html">Servicios</a></li>
+                    <li class="menu__item"><a class="item__link" href="contacto.html">Contacto</a></li>
+                </ul>
+        </header>
+    <section class="main-content" class="primer-contenido">
+        <h1 class="main-tittle">
+            CONTACTO
+        </h1>
+    </section>
+    <section class="secondary-content">    
+        <p class="parrafo-corto">
+            Consultanos lo que quieras
+        </p>
+    </section>
+    
+    
+    <section class="contact">
+        <article class="contact-information">
+            <div class="contact-detail">    
+                <img  src="../Images/mapas-y-banderas.png" class="contact-icon" alt="phone" >
+                <p class="aditional-content">
+                Calle falsa 123, Sprinfield, Bs. As.
+                </p>
+            </div>
+            <div class="contact-detail">    
+                <img  src="../Images/phone-call.png" class="contact-icon" alt="phone" >
+                <p class="aditional-content">
+                +54 12345567
+                </p>
+            </div>
+            <div class="contact-detail">    
+                <img  src="../Images/email.png" class="contact-icon" alt="phone">
+                <p class="aditional-content">
+                glamping@glamping.com
+                </p>
+            </div>
+        </article>
+
+        <form class="forms">
+               <fieldset>
+                   <legend>Información personal</legend>
+                        <label for="nombre_completo">Nombre completo:</label>	
+                        <input type="text" placeholder="Nombre y apellido" name="nombre_completo" />
+                        <label for="numero_contacto">Numero de contacto </label>	
+                        <input type="number" placeholder="Nro de telefono" name="numero_contacto" />
+              </fieldset>
+            
+              
+                <fieldset>
+                  <legend>Datos del la reserva</legend>
+                    <label for="tipo_domo">Domo 1</label>
+                    <input type="radio" name="nro_domo" value="domo_1" />
+                    <label for="tipo_domo">Domo 2</label>
+                    <input type="radio" name="nro_domo" value="domo_2" />
+                    <label for="tipo_domo">Domo 3</label>
+                    <input type="radio" name="nro_domo" value="domo_3" />
+                    <br>
+                    <label for="cantidad_adultos">Cantidad de adultos:</label>
+                  <select name="talles">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Información adicional</legend>
+                    <textarea name="textarea" rows="10" cols="70" minlength="5" placeholder="Agrega informacion adicional"></textarea>
+                </fieldset> <br>
+                <input type="submit" value="Enviar">
+	            <input type="reset" value="Resetear">
+        </form>    
+    </section>
+
+    <footer class="footer">
+        <h3>Seguinos en redes:</h3>
+        <div class="redes">
+            <a href="www.facebook.com"><img src="../Images/facebook.png" alt="facebook" class="imagenes__redes"></a>
+            <a href="www.instagram.com"><img src="../Images/instagram.png" alt="instagram" class="imagenes__redes"></a>
+        </div>
+        <p>© Glamping BA - Todos los derechos reservados</p>
+        
+    </footer>
+</body>
+</html>
