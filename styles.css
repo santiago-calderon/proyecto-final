@@ -1,0 +1,42 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    background-color: beige;
+    
+}
+
+nav{
+  min-height: 5hv;
+  background-color: red;
+}
+
+.nav-link{
+  color: wheat;
+  font-weight: bold
+}
+.logo{
+  height: 120px;
+  width: 70px;
+}
+.carousel-inner{
+  height: 400px;
+  width: auto;
+  
+}
+
+.carousel-inner img{
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+}
+
+
+
+
