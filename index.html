@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' type='text/css' media='screen' href='./Bootstrap/css/bootstrap.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./Bootstrap/css/mdb.min.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./styles.css'>
     <script src="./Bootstrap/js/jquery.min.js"></script>
     <script src="./Bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./Bootstrap/js/mdb.min.js"></script>
+    <script src="./Wow/js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=roboto:wght@300&display=swap" rel="stylesheet">   
-  <link rel="shortcut icon" href="./Images/logo-definitivo.png" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./Wow/css/animate.css'>
    <title>Glamping BA</title>
 </head>
 <body>
@@ -54,69 +55,141 @@
           </div>
         </nav>
       </header>
-      <div>
-        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="/Images/fondo-contacto.jpg" class="fondo1" alt="First slide">
-              <div class="card carousel-caption ">
-                <div class="card-body flex-wrap">
-                  <h4 class="card-title">VENÍ A RELAJARTE</h4>
-                  <p class="card-text">
-                    Some quick example text to build on the card title
-                    and make up the bulk of the card's content.
-                  </p>
-                  <a href="#!"><button type="button" class="btn btn-warning blue" >Warning</button></a>
-                </div>
-              </div>
-             </div>
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/Images/Imagen-central.jpg" alt="First slide">
+          
+            <div class="carousel-caption d-none d-sm-block">
+              <h2 class="titulo-carousel text-uppercase wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">VENI A DISFRUTAR</h2>
+              <p class="parrafo-carousel wow animate__fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="/Images/imagen-glamping (2).jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="/Images/fondo-contacto.jpg" alt="Third slide">
-            </div>
+          
           </div>
-        </div>  
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/Images/imagen-glamping (2).jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/Images/fondo-contacto.jpg" alt="Third slide">
+          </div>
+        </div>
       </div>
 
-      <section class="container mt-5">
-      <div class="row">
-        <div class="col-lg-4 ">
-          <div class="card d-flex justify-content-center">
-            <div class="justify-content-center">
-            <img class="card-img-top" src="/images/imagen-glamping-1.jpg" alt="Card image cap">
-            <div class="card-body"> Glampings Premium</div>
-            <div class="card-body"> Vení a disfrutar del confort de rodearte con la naturaleza </div>
+      <section class="presentacion container mt-5">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-lg-6 col-sm-12">
+            <h1 class="presentacion-titulo h1-resposive wow animate__fadeInTopLeft" data-wow-duration="2s" data-wow-delay=".1s">
+              Chacra Las Marias
+            </h1>
+            <p class=" presentacion-texto h6-responsive text-justify mt-3 wow animate__fadeInTopLeft" data-wow-duration="2s" data-wow-delay=".1s">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+            </p> 
           </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img class="card-img-top" src="/images/imagen-glamping-2.jpg"s alt="Card image cap">
-            <p class="text-bolder"> Some more card content </p>
-            <div class="card-body text-center"> Some more card content </div>
+          <div class="col-lg-6 col-sm-12 wow animate__fadeInTopRight" data-wow-duration="2s" data-wow-delay=".1s">
+            <img src="https://images.pexels.com/photos/164443/pexels-photo-164443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" width="500px" height="400px" alt="foto principal">
           </div>
         </div>
-        <div class="col-lg-4 ">
-          <div class="card">
-            <img class="card-img-top" src="/images/imagen-glamping-3.jpg" alt="Card image cap">
-            <div class="card-body text-center"> Some more card content </div>
-            <div class="card-body"> Some more card content </div>
-          </div>
-        </div>
-      </div>
       </section>
 
-      <div class="row align-items-center">
-      <div class="col-7">
-          <img class="card-img-top" src="/images/imagen-glamping-2.jpg"s alt="Card image cap">
+      <section class="nuestro-espacio mt-5">
+        <div class="nuestro-espacio_contenido container pt-5">
+          <h2 class="nuestro-espacio_titulo col-6">
+            NUESTRO ESPACIO
+          </h2>
+          <p class="nuestro-espacio_parrafo actividades col-10 text-justify">
+            Lorem ipsum dolor sit amet. Sed animi natus et voluptatem minima aut dolore consequatur qui dicta distinctio non delectus dolorem et voluptatibus dicta! Qui omnis expedita est dolorem repudiandae non vitae iusto ut asperiores dicta qui optio aliquam qui voluptatem laudantium 33 quia. At harum consequuntur vel omnis nisi in velit voluptatem sit architecto enim. Ad odit rerum ut assumenda autem ut vero facere qui enim tenetur.
+          </p>
+         
+        <div class="nuestro-espacio_imagenes container row pt-3 mt-5 justify-content-center">
+          
+          <div class="col-lg-4 col-sm-12 row d-flex flex-column justify-content-center align-items-center" >
+            <img src="https://images.pexels.com/photos/5717775/pexels-photo-5717775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="nuestro-espacio_imagen img-fluid" alt="Responsive image">
+            
+            <h5 class="nuestro-espacio_imagen_texto mt-3 mb-5">
+              DOMOS PREMIUM
+            </h5>
+          
+          </div>
+
+          <div class="col-lg-4 col-sm-12 row d-flex flex-column justify-content-center align-items-center">
+            <img src="https://images.pexels.com/photos/7883420/pexels-photo-7883420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="nuestro-espacio_imagen img-fluid" alt="Responsive image">
+            
+            <h5 class="nuestro-espacio_imagen_texto mt-3 mb-5">
+              ACTIVIDADES RURALES
+            </h5>
+          
+          </div>
+
+          <div class="col-lg-4 col-sm-12 row d-flex flex-column justify-content-center align-items-center">
+            <img src="https://images.pexels.com/photos/261045/pexels-photo-261045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="nuestro-espacio_imagen img-fluid" alt="Responsive image">
+          
+            <h5 class="nuestro-espacio_imagen_texto mt-3 mb-5">
+              SPA
+            </h5>
+          
+          </div>
+        </div>  
         </div>
-      <div class="col-5">
-          <p class="text-bolder"> Some more card content </p>
+      </section>
+
+      <section class="resumen container mt-5">
+        <div class="row d-flx justify-content-center align-items-center">
+
+        <div class="row justify-content-center col-lg-4 col-md-6 col-sm-12 mt-4 mr-2 wow animate__fadeInTopLeft" data-wow-duration="2s" data-wow-delay=".5s">
+          <img src="https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="imagen-resumen img-fluid" alt="Responsive image">  
+        </div>
+
+        <div class="row justify-content-center col-lg-4 col-md-6 col-sm-12 mt-4 mr-2 wow animate__fadeInDown" data-wow-duration="2s" data-wow-delay=".5s">
+          <img src="https://images.pexels.com/photos/158179/lake-constance-sheep-pasture-sheep-blue-158179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class=" imagen-resumen img-fluid" alt="Responsive image">  
+        </div>
+
+        <div class="row justify-content-center col-lg-4 col-md-6 col-sm-12 mt-4 mr-2 wow animate__fadeInTopRight" data-wow-duration="2s" data-wow-delay=".5s">
+          <img src="https://images.pexels.com/photos/8681468/pexels-photo-8681468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="imagen-resumen img-fluid" alt="Responsive image">  
+        </div>
+
+        <div class="row justify-content-center col-lg-4 col-md-6 col-sm-12 mt-4 mr-2 wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">
+          <img src="https://images.pexels.com/photos/12112881/pexels-photo-12112881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="imagen-resumen img-fluid" alt="Responsive image">  
+        </div>
+
+        <div class="row justify-content-center col-lg-4 col-md-12 mt-4 mr-2">
+          <h2 class="resumen-titulo text-center h2-resposive row align-content-center">LAS MARIAS</h2>
+        </div>
+        
+        <div class="row justify-content-center col-lg-4 col-md-6 col-sm-12 mt-4 mr-2 wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">
+          <img src="https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="imagen-resumen img-fluid" alt="Responsive image">  
+        </div>
+
+        <div class="row justify-content-center col-lg-4 col-md-6 col-sm-12 mt-4 mr-2 wow animate__fadeInBottomLeft" data-wow-duration="2s" data-wow-delay=".5s">
+          <img src="https://www.andigital.com.ar/images/lobos_dos.jpg" class="imagen-resumen img-fluid" alt="Responsive image">  
+        </div>
+
+        <div class="row justify-content-center col-lg-4 col-md-6 col-sm-12 mt-4 mr-2 wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+          <img src="https://assets.turismocity.com/cdn-cgi/image/format=auto,metadata=none,,width=500,fit=scale-down/eco%20domo.png" class="imagen-resumen img-fluid" alt="Responsive image">  
+        </div>
+
+        <div class="row justify-content-center col-lg-4 col-md-6 col-sm-12 mt-4 mr-2 wow animate__fadeInBottomRight" data-wow-duration="2s" data-wow-delay=".5s">
+          <img src="https://images.pexels.com/photos/1366913/pexels-photo-1366913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="imagen-resumen img-fluid" alt="Responsive image">  
+        </div>
+
       </div>
-    </div>
-</body>
+
+      </section>
+
+
+      <footer class="footer mt-5">
+        <h3>Seguinos en redes:</h3>
+        <div class="redes">
+            <a href="www.facebook.com"><img src="../Images/facebook.png" alt="facebook" class="imagenes__redes"></a>
+            <a href="www.instagram.com"><img src="../Images/instagram.png" alt="instagram" class="imagenes__redes"></a>
+        </div>
+        <p>© Glamping BA - Todos los derechos reservados</p>
+        
+    </footer>
+     
 </html>
 
