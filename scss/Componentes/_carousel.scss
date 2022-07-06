@@ -1,0 +1,29 @@
+
+.carousel-inner{
+    width: 100%;
+    height: 100vh
+    
+    }
+  .carousel-inner img{
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+    object-position: bottom;
+    filter: brightness(25%);
+  }
+  
+  .carousel-caption{
+    top:200px;
+    font-weight: bold ;
+  }
+  
+  .titulo-carousel{
+    font-size: 10rem ;
+    font-weight: bolder;
+    animation: alternate;
+  }
+  
+  .parrafo-carousel{
+    font-size: 2rem
+  }
+  
