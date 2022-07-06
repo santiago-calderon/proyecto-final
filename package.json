@@ -5,7 +5,7 @@
   "name": "nombre-de-mi-package",
   "scripts": {
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "build:css": "node-sass --output-style compressed ./scss/main.scss /main.css"
+    "build:css": "node-sass --output-style compressed scss/main.scss css/main.css"
   },
   "version": "1.0.0",
   "devDependencies": {
