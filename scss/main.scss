@@ -1,10 +1,21 @@
+/*VARIABLES*/
+@import "misc/variables";
+/*NORMALIZE*/
+@import "misc/normalize";
+
+@import "misc/mixins.scss";
+
+
 @import 'componentes/header';
-@import 'componentes/carousel';
-@import 'componentes/presentacion';
-@import 'componentes/nuestro-espacio';
-@import 'componentes/resumen';
+@import 'componentes/index/carousel';
+@import 'componentes/index/presentacion';
+@import 'componentes/index/nuestro-espacio';
+@import 'componentes/index/resumen';
 @import 'componentes/footer';
 @import 'componentes/media-queries';
+@import 'componentes/index/glamping';
+@import 'componentes/index/domos';
+@import 'componentes/index/cuadricula_ubicacion';
 
 
 

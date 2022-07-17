@@ -1,22 +1,12 @@
 
 .nuestro-espacio  {
-    background-color: '#292d33';
+    background-color: $secondary;
     color: white;
+    margin-top: $spacing-large;
+    padding-top: $spacing-xlarge;
+    padding-bottom: $spacing-xlarge;
   }
-  
-  
-  h2{
-    font-size: 3.5rem;
-    font-weight:bold;
-  }
-  
-  .nuestro-espacio_parrafo{
-    font-size: 1.5rem;
-  }
-  
-  .resumen-titulo{
-    font-size: 9rem;
-  }
+
   .nuestro-espacio_imagenes{
     width: 100%;
     
@@ -32,4 +22,10 @@
     font-size: 2rem;
     font-weight: 600;
   }
+
   
+  .nuestro-espacio_parrafo{
+    font-size: $text-small;
+  }
+ 
+

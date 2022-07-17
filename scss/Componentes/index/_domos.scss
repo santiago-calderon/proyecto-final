@@ -1,0 +1,18 @@
+.domos{
+    margin-top: $spacing-large
+}
+
+.domos-card{
+    border:solid black;
+
+}
+
+.domos_card-images:hover{
+    opacity: 1;
+    transform: scale(1.15,1.15);
+    -webkit-transform:scale(1.15,1.15);
+    -moz-transform:scale(1.15,1.15);
+    -ms-transform:scale(1.15,1.15);
+    -o-transform:scale(1.15,1.15);
+
+}

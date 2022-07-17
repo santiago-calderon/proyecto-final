@@ -4,8 +4,9 @@
   "license": "MIT",
   "name": "nombre-de-mi-package",
   "scripts": {
-    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "build:css": "node-sass --output-style compressed scss/main.scss css/main.css"
+    
+    "build:css": "node-sass --output-style compressed scss/main.scss css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build:css\""
   },
   "version": "1.0.0",
   "devDependencies": {

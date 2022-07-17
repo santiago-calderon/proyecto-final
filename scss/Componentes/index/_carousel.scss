@@ -2,10 +2,9 @@
 .carousel-inner{
     width: 100%;
     height: 100vh
-    
     }
+
   .carousel-inner img{
-    width: 100%;
     height: 100vh;
     object-fit:cover;
     object-position: bottom;
@@ -14,16 +13,17 @@
   
   .carousel-caption{
     top:200px;
-    font-weight: bold ;
+    font-weight: bolder;
   }
   
   .titulo-carousel{
-    font-size: 10rem ;
-    font-weight: bolder;
-    animation: alternate;
+    font-family: $font-title;
+    font-size: $text-xxlarge;
+    color: $text-color-tittles;
   }
   
   .parrafo-carousel{
-    font-size: 2rem
+    font-size: $text-medium;
+    font-weight: lighter;
   }
   

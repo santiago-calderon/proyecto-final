@@ -1,0 +1,25 @@
+.presentacion{
+  margin-top: $spacing-large ;
+}
+
+
+.presentacion-titulo{
+    font-size: $text-large;
+    font-weight: bold;
+  }
+  
+  
+  .presentacion-texto{
+    font-size: $text-base;
+  }
+
+  .presentacion-button{
+    width: 200px;
+    font-size: $text-base
+  }
+  
+  .presentacion-imagen{
+    max-width: 100%;
+    height: auto;
+
+  }
