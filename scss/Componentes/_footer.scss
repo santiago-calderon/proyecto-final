@@ -1,0 +1,20 @@
+footer{
+  @include flex (column, space-around, center);
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-size: $text-small;
+  }
+  
+  .redes{
+    @include flex (row, space-around, center);
+    width: 10%;
+    padding-top: 10px;
+  }
+  
+  .imagenes__redes{
+    width: 20px;
+    height: 20px;
+  }
+  
+
+

@@ -1,0 +1,53 @@
+.glamping{
+    margin-top:$spacing-large;
+    color:white;
+    background-image: url(../Images/imagen-fondo-glamping.jpeg);
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding:$spacing-xlarge 0 $spacing-xlarge;
+}
+
+.glamping_parrafo{
+    font-size: $text-base;
+}
+
+.glamping-button{
+    width: 200px;
+    font-size: $text-base
+  }
+
+  .imgoo{
+    max-width: 100%;
+    height: auto;
+
+  }
+
+
+  .cuadricula{
+    padding: 0;
+    margin:0;
+    max-width: 100%;
+    
+  }
+  .imagennnnnn{
+    padding: 0;
+    margin:0;
+  }
+
+  .ubicacion{
+    padding: $spacing-xlarge 0 $spacing-xlarge;
+    background-image: url(https://images.pexels.com/photos/4989254/pexels-photo-4989254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    filter: brightness(75%);
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .ubicacion-texto{
+    background-color: $secondary;
+  }

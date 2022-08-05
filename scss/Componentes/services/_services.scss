@@ -1,0 +1,19 @@
+
+.services-list{
+    @include flex (row, space-around, center);
+    flex-wrap: wrap;
+    
+    &__item{
+    background-color: rgb(240, 180, 27);
+    text-align: center;
+    margin: $spacing-xsmall;
+    border: solid black;
+    width: 300px;
+    font-size: $text-large;
+
+    &:hover{
+        background-color: blue;
+        color: white;
+    }
+}
+}
