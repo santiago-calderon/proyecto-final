@@ -1,8 +1,8 @@
 
 .contact__tittle {
     text-align: center;
-    font-size: $text-xlarge;
-    margin-top: $spacing-medium;
+    font-size: 4rem;
+    margin: $spacing-medium;
 }
 
 .logo span {
@@ -51,6 +51,10 @@
     border-bottom: 1px solid #ffc107;
 }
 
+.contact-form{
+    font-size: 0.6rem
+}
+
 .contact-form form button {
     background: #ffc107;
     border: 0;
@@ -73,16 +77,34 @@
 }
 
 .contact__info-tittle{
-    font-size: $text-large;
+    font-size: $text-medium;
 }
 .contact__info-list{
-    font-size: $text-medium;
+    font-size: $text-small;
   
 }
 
+@media(min-width: 575px){
+
+    .contact__tittle {
+
+        font-size: $text-large;
+
+    }
+    .contact-wrapper{
+       width: 90%;
+       margin: auto;
+    }
+    
+
+}
 
 /* LARGE SIZE */
 @media(min-width: 700px) {
+
+    .contact-form{
+        font-size: 0.7rem
+    }
 
     .contact-wrapper {
         display: grid;
