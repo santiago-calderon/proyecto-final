@@ -1,19 +1,26 @@
-
-.services-list{
-    @include flex (row, space-around, center);
-    flex-wrap: wrap;
-    
+.services{
     &__item{
-    background-color: rgb(240, 180, 27);
-    text-align: center;
-    margin: $spacing-xsmall;
-    border: solid black;
-    width: 300px;
-    font-size: $text-large;
+        display: flex;
+        align-items:flex-start;
+        margin-bottom: $spacing-medium;
+        &-icon{
+            color: #d39e00;
+            font-size: 5rem;
+            margin-right: $spacing-xsmall;
+        }
+        &-text{
+            display: flex;
+            flex-direction: column;
+            &-tittle{font-size: 4rem;
+                color:$secondary;
+                font-weight: bolder;
+            }
+            &-p{
+                font-size: 2rem;
+            }
 
-    &:hover{
-        background-color: blue;
-        color: white;
+            
+        }
+
     }
-}
 }

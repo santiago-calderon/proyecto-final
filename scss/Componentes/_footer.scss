@@ -5,16 +5,15 @@ footer{
     font-size: $text-small;
   }
   
-  .redes{
-    @include flex (row, space-around, center);
-    width: 10%;
-    padding-top: 10px;
-  }
-  
-  .imagenes__redes{
-    width: 20px;
-    height: 20px;
-  }
-  
 
+  
+.footer__logo{
+  color: white;
+  font-size: $text-small;
+  padding-right: 10px;
+
+  &:hover{
+    color:#d39e00
+  }
+}
 
