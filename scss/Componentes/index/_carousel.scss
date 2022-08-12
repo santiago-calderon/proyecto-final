@@ -1,7 +1,6 @@
-
 .carousel-inner{
     width: 100%;
-    height: 80vh
+    height: 100vh
     }
 
   .carousel-inner img{
@@ -9,6 +8,12 @@
     object-fit:cover;
     object-position: bottom;
     filter: brightness(25%);
+  }
+
+  .carouse__arrow{
+    color: rgba(241, 185, 14, 0.692);
+    font-size: $text-large;
+   
   }
   
   .carousel-caption{
@@ -39,5 +44,10 @@
    
     }
     
+}
 
+@media(max-width: 768px){
+  .carousel-indicators{
+    bottom:240px;
+  }
 }
