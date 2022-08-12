@@ -4,8 +4,9 @@
 
 
 .presentacion-titulo{
-    font-size: $text-large;
+    font-size: $text-xxlarge;
     font-weight: bold;
+    padding-bottom: $spacing-medium
   }
   
   
@@ -22,4 +23,10 @@
     max-width: 100%;
     height: auto;
 
+  }
+
+  @media(max-width:576px){
+    .presentacion-titulo{
+      font-size: $text-large;
+    }
   }
