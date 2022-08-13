@@ -84,18 +84,24 @@
   
 }
 
-@media(min-width: 575px){
+@media(max-width: 575px){
 
     .contact__tittle {
 
         font-size: $text-large;
 
     }
-    .contact-wrapper{
-       width: 90%;
-       margin: auto;
+    .contact-form form p {
+        grid-column: 1 / 3;
     }
     
+    .contact-wrapper{
+        width: 95%;
+    }
+
+    .sm-display-block{
+        display: none;
+    }
 
 }
 
