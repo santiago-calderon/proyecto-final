@@ -22,61 +22,12 @@
         }
     }
 
-
-
 }
 
-.light-box{
-    position:fixed;
-    top:0;
-    left:0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100vh;
-    z-index:100000;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    transform: scale(0);
-    transition: transform .3s ease-in-out;
-    img{
-        width: 100%;
-       height: auto;
-    }
-
-    &:target{
-        transform: scale(1);
-    }
-    
-}
- 
-
-
-.close{
-    display:block;
-    position: absolute;
-    top:40px;
-    right: 40px;
-    background: #ffffff;
-    color: rgb(0, 0, 0);
-    font-size: $text-medium;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-
+.domo1__tittle{
+    padding-top:$spacing-xlarge;
 }
 
-.next{
-    top:40px;
-    right: 40px;
-    background: #ffffff;
-    color: rgb(0, 0, 0);
-    font-size: $text-medium;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
+.slideshow-image{
+    filter:brightness(60%)
 }

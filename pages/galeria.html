@@ -62,40 +62,66 @@ GALERIA
   </nav>
 </header>
  
-<section id="gallery__domos"class="carousel__domos">
-<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-  <ol class="carousel-indicators">
- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner ">
- <div class="carousel-item active">
-<img class="d-block w-100 carousel__domos-img" src="../Images/domo (1).jpg" alt="First slide">
- 
-<div class="carousel-caption">
-  <h2 class="titulo-carousel text-uppercase wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">DOMO 1</h2>
-  <p class="parrafo-carousel wow animate__fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">CAPACIDAD PARA 4 PERSONAS Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-</div>
- 
- </div>
- <div class="carousel-item">
-<img class="d-block w-100 carousel__domos-img" src="../Images/domo (2).jpg" alt="Second slide">
-<div class="carousel-caption">
-  <h2 class="titulo-carousel text-uppercase wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">DOMO 2</h2>
-  <p class="parrafo-carousel wow animate__fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">CAPACIDAD PARA 2 PERSONAS Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-</div>
- </div>
- <div class="carousel-item">
-<img class="d-block w-100 carousel__domos-img" src="../Images/fondo-contacto.jpg" alt="Third slide">
- </div>
-  </div>
+<section id="gallery__domos"class="carousel__domos"  uk-slideshow="autoplay: true" >
+  <div  class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
+
+    <ul class="uk-slideshow-items" class="uk-slideshow-items" uk-height-viewport="min-height: 300" >
+        <li>
+            <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1" >
+                <img  src="https://images.pexels.com/photos/8849246/pexels-photo-8849246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  class="slideshow-image" alt="" uk-cover>
+            </div>
+            <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
+            <div class="uk-position-center uk-position-medium uk-text-center ">
+                <div uk-slideshow-parallax="scale: 1,1,0.8">
+                    <h2 class="titulo-carousel" uk-slideshow-parallax="x: 200,0,0">LOS DOMOS</h2>
+                    <p  class="parrafo-carousel" uk-slideshow-parallax="x: 400,0,0;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, ea?</p>
+                </div>
+            </div>
+            <div class="uk-position-bottom uk-position-medium uk-text-center uk-light">
+              <a href="#domo1"><i  class="fa-solid fa-angle-down carouse__arrow animate__animated animate__fadeInDown animate__delay-0.5s animation_iteration_count_infinite" ></i></a>
+          </div>
+        </li>
+        <li>
+            <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
+                <img src="https://images.pexels.com/photos/5358788/pexels-photo-5358788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="slideshow-image" alt="" uk-cover>
+            </div>
+            <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
+            <div class="uk-position-center uk-position-medium uk-text-center">
+                <div uk-slideshow-parallax="scale: 1,1,0.8">
+                    <h2 class="titulo-carousel" uk-slideshow-parallax="x: 200,0,0">LA ESTANCIA</h2>
+                    <p class="parrafo-carousel" uk-slideshow-parallax="x: 400,0,0;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, placeat</p>
+                </div>
+            </div>
+            <div class="uk-position-bottom uk-position-medium uk-text-center uk-light">
+              <a href="#domo1"><i  class="fa-solid fa-angle-down carouse__arrow animate__animated animate__fadeInDown animate__delay-0.5s animation_iteration_count_infinite" ></i></a>
+          </div>
+        </li>
+        <li>
+            <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
+                <img src="https://images.pexels.com/photos/5717775/pexels-photo-5717775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  class="slideshow-image" alt="" uk-cover>
+            </div>
+            <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
+            <div class="uk-position-center uk-position-medium uk-text-center">
+                <div uk-slideshow-parallax="scale: 1,1,0.8">
+                    <h2 class="titulo-carousel" uk-slideshow-parallax="x: 200,0,0">ACTIVIDADES</h2>
+                    <p  class="parrafo-carousel" uk-slideshow-parallax="x: 400,0,0;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="uk-position-bottom uk-position-medium uk-text-center uk-light">
+              <a href="#domo1"><i  class="fa-solid fa-angle-down carouse__arrow animate__animated animate__fadeInDown animate__delay-0.5s animation_iteration_count_infinite" ></i></a>
+          </div>
+        </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
 </div>
  </section>
 
- <section class="gallery__domo1 mt-5 pt-3 container">
+ <section id="domo1" class="gallery__domo1 mt-5 pt-3 container">
   <h2 class="domo1__tittle text-center">
- Domo 1
+ DOMO 1
   </h2>
   <p class="domo1__text text-center text-justify">
  Glamping para 4 personas equipada con Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi placeat ratione accusamus explicabo sit facere fuga rem molestiae obcaecati corporis.
