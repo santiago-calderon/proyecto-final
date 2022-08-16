@@ -31,3 +31,12 @@
 .slideshow-image{
     filter:brightness(60%)
 }
+
+
+
+
+@media(max-width: 575px){
+    .uk-position-bottom{
+        padding-bottom: 50px;
+    }
+}
