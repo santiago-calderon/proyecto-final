@@ -2,7 +2,7 @@
 $nombre = $_POST['name'];
 $mail = $_POST['email'];
 $phone = $_POST['phone'];
-$empresa = $_POST['mensaje'];
+$empresa = $_POST['message'];
 
 $header = 'From: ' . $mail . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
@@ -15,7 +15,7 @@ $mensaje .= "Su telefono es: " . $phone . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'santi.calderon.sc@gmail.com';
+$para = 'estancialasmarias@gmail.com';
 $asunto = $_POST['affair'];
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
