@@ -1,7 +1,7 @@
 .glamping{
     margin-top:$spacing-large;
-    color:white;
-    background-image: url(../Images/imagen-fondo-glamping.jpeg);
+    color:black;
+    background-image: url(../Images/domo-tacuara-2.jpeg);
     background-attachment: fixed;
     background-position:top;
     background-repeat: no-repeat;
@@ -10,8 +10,13 @@
     padding:$spacing-xlarge 0 $spacing-xlarge;
 }
 
+.glamping_contenido{
+  background-color: rgba(245, 245, 220, 0.7)
+}
+
 .glamping_parrafo{
     font-size: $text-base;
+    font-weight: 500;
 }
 
 .card-t{
