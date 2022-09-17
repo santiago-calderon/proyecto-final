@@ -1,0 +1,52 @@
+
+  .cuadricula{
+    padding: 0;
+    margin:0;
+    max-width: 100%;
+  }
+
+  
+  .cuadricula-imagen{
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .cuadricula-imagenes{
+    padding: 0;
+    margin:0;
+  }
+
+  .ubicacion{
+    padding: $spacing-xlarge 0 $spacing-xlarge;
+    background-image: url(https://images.pexels.com/photos/4989254/pexels-photo-4989254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    filter:none;
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+
+
+  .ubicacion-texto{
+    font-family: $font-title;
+    background-color: $secondary;
+    color:white;
+    margin: 0;
+  }
+
+  .ubicacion-imagen{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: auto;
+  }
+
+  .ubicacion_imagen-2{
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }

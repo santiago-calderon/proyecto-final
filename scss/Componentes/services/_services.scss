@@ -1,0 +1,26 @@
+.services{
+    &__item{
+        display: flex;
+        align-items:flex-start;
+        margin-bottom: $spacing-medium;
+        &-icon{
+            color: #d39e00;
+            font-size: 5rem;
+            margin-right: $spacing-xsmall;
+        }
+        &-text{
+            display: flex;
+            flex-direction: column;
+            &-tittle{font-size: 4rem;
+                color:$secondary;
+                font-weight: bolder;
+            }
+            &-p{
+                font-size: 2rem;
+            }
+
+            
+        }
+
+    }
+}

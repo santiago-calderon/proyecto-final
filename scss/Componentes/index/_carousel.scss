@@ -1,0 +1,46 @@
+.carousel-inner{
+    width: 100%;
+    }
+
+  .carousel-inner img{
+    height: 100vh;
+    object-fit:cover;
+    object-position: bottom;
+    filter: brightness(25%);
+  }
+
+  .carouse__arrow{
+    color: rgba(241, 185, 14, 0.692);
+    font-size: $text-xlarge;
+   
+  }
+  
+  .carousel-caption{
+    top:200px;
+    font-weight: bolder;
+  }
+  
+  .titulo-carousel{
+    font-family: $font-title;
+    font-size: $text-xxlarge;
+    color: $text-color-tittles;
+  }
+  
+  .parrafo-carousel{
+    font-size: $text-medium;
+    font-weight: lighter;
+  }
+  
+
+  @media(max-width: 576px) {
+    .titulo-carousel{
+      font-size: $text-large;
+
+    }
+    
+    .parrafo-carousel{
+      font-size: $text-small;
+   
+    }
+    
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel='stylesheet' type='text/css' media='screen' href='..//Bootstrap/css/bootstrap.min.css'>
+ <link rel='stylesheet' type='text/css' media='screen' href='../Bootstrap/css/mdb.min.css'>
+ <script src="../Bootstrap/js/jquery.min.js"></script>
+ <script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="../Bootstrap/js/mdb.min.js"></script>
+ <script src="../Wow/js/wow.js"></script>
+ <script>
+new WOW().init();
+ </script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,500;0,900;1,600;1,700&family=Bevan&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+ <link rel='stylesheet' type='text/css' media='screen' href='../css/main.css'>
+ <link rel='stylesheet' type='text/css' media='screen' href='../Wow/css/animate.css'>
+ <script src="https://kit.fontawesome.com/40aa64c22e.js" crossorigin="anonymous"></script>
+ <title>Glamping BA</title>
+</head>
+<body>
+  
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark scrolling-navbar fixed-top">
+<div class="container">
+ <a class="navbar-brand mr-auto" href="../index.html"><img src="../Images/logo-definitivo.png" class="logo"  alt="Logo"/></a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ml-auto">
+  <li class="nav-item active">
+ <a class="nav-link" href="../index.html">INICIO</a>
+  </li>
+  <li class="nav-item">
+ <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
+  </li>
+  <li class="nav-item dropdown">
+ <a class="nav-link dropdown-toggle" href="./pages/galeria.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+GALERIA
+ </a>
+ <div class="dropdown-menu grey" aria-labelledby="navbarDropdown">
+  <a class="dropdown-item" href="../pages/galeria.html#gallery__domos">LOS DOMOS</a>
+  <a class="dropdown-item" href="../pages/galeria.html#gallery__estancia">LA CHACRA</a>
+  <a class="dropdown-item" href="#">ACTIVIDADES</a>
+  </li>
+  <li class="nav-item">
+ <a class="nav-link" href="../index.html#ubicacion">UBICACION</a>
+  </li>
+  <li class="nav-item">
+ <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+  </li>
+</ul>
+ </div>
+  </nav>
+</header>
+ 
+<section id="gallery__domos"class="gallery carousel__domos">
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+ <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+ <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+ <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner ">
+ <div class="carousel-item active">
+<img class="d-block w-100 carousel__domos-img" src="../Images/imagen-glamping (4).jpg" alt="First slide">
+ 
+<div class="carousel-caption">
+  <h2 class="titulo-carousel text-uppercase wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">DESAYUNO</h2>
+  <p class="parrafo-carousel wow animate__fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">Desayuno incluido Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+ 
+ </div>
+ <div class="carousel-item d-flex flex-column align-items-center">
+<img class="d-block w-100 carousel__domos-img" src="../Images/imagen-glamping (3).jpg" alt="Second slide">
+<div class="carousel-caption">
+  <h2 class="titulo-carousel text-uppercase wow animate__fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">ESPACIO NATURAL</h2>
+  <p class="parrafo-carousel wow animate__fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">Actividades para grandes y chicospisicing elit.</p>
+</div>
+ </div>
+ <div class="carousel-item">
+<img class="d-block w-100 carousel__domos-img" src="../Images/imagen-glamping (1).jpg" alt="Third slide">
+ </div>
+  </div>
+</div>
+ </section>
+
+    <section class="services container d-flex flex-column justify-content-between align-content-center">
+      <h2 class="services__tittle text-center mt-5 mb-5">QUE OFRECEMOS?</h2>
+
+    <div class="row">
+
+      <div class="services__item col-md-6 col-sm-12">
+        <i class="fa-solid fa-igloo services__item-icon"></i>
+        <div class="d-flex services__item-text">
+        <h3 class="services__item-text-tittle">Domos</h3>
+        <p class="services__item-text-p">Domos completamente equipados con aire aconcicionado, tv, cocina y baño privado</p>
+        </div>  
+      </div>
+
+      <div class="services__item col-md-6 col-sm-12">
+        <i class="fa-solid fa-mug-hot services__item-icon"></i>
+        <div class="d-flex services__item-text">
+        <h3 class="services__item-text-tittle">Desayuno</h3>
+        <p class="services__item-text-p">Desayuno incluido para todos los huespedes.</p>
+        </div>  
+      </div>
+
+      <div class="services__item col-md-6 col-sm-12 ">
+        <i class="fa-solid fa-dumpster-fire services__item-icon"></i>
+        <div class="d-flex services__item-text">
+        <h3 class="services__item-text-tittle">Fogoneros</h3>
+        <p class="services__item-text-p">Para compartir un fogon en familia.</p>
+        </div>  
+      </div>
+
+      <div class="services__item col-md-6 col-sm-12">
+        <i class="fa-solid fa-person-swimming services__item-icon"></i>
+        <div class="d-flex services__item-text">
+        <h3 class="services__item-text-tittle">Pileta descubierta</h3>
+        <p class="services__item-text-p">Pileta descubierta para refrescarte en verano.</p>
+        </div>  
+      </div>
+
+
+
+      <div class="services__item col-md-6 col-sm-12 ">
+        <i class="fa-solid fa-spa services__item-icon"></i>
+        <div class="d-flex services__item-text">
+        <h3 class="services__item-text-tittle">Jardín de invierno</h3>
+        <p class="services__item-text-p">Zona de relajacion con piscina climatizada y spa.</p>
+        </div>  
+      </div>
+
+      <div class="services__item col-md-6 col-sm-12 ">
+        <i class="fa-solid fa-futbol services__item-icon"></i>
+        <div class="d-flex services__item-text">
+        <h3 class="services__item-text-tittle">Actividades</h3>
+        <p class="services__item-text-p">Actividades al aire libre para grandes y chicos.</p>
+        </div>  
+      </div>
+
+      <div class="services__item col-md-6 col-sm-12 ">
+        <i class="fa-solid fa-cow services__item-icon"></i>
+        <div class="d-flex services__item-text">
+        <h3 class="services__item-text-tittle">Granja</h3>
+        <p class="services__item-text-p">Granja repleta de animales para conocer.</p>
+        </div>  
+      </div>
+
+      <div class="services__item col-md-6 col-sm-12 ">
+        <i class="fa-solid fa-horse services__item-icon"></i>
+        <div class="d-flex services__item-text">
+        <h3 class="services__item-text-tittle">Cabalgatas</h3>
+        <p class="services__item-text-p">Caballos para salir a cabalgar en familia.</p>
+        </div>  
+      </div>
+
+
+      
+
+ 
+
+    </div>
+
+    
+
+ 
+
+    </section>
+
+
+    <footer class="footer">
+      <h3>Seguinos en redes:</h3>
+      <div class="redes">
+        <a href="www.instagram.com"><i class="fa-brands fa-instagram footer__logo"></i></a>
+        <a href="www.facebook.com"><i class="fa-brands fa-facebook footer__logo"></i></a>
+      </div>
+      <h3>© Glamping BA - Todos los derechos reservados</h3>
+      
+  </footer>
+</body>
+</html>

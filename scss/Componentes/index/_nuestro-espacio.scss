@@ -1,0 +1,39 @@
+
+.nuestro-espacio  {
+    background-color: $secondary;
+    color: white;
+    margin-top: $spacing-large;
+    padding-top: $spacing-xlarge;
+    padding-bottom: $spacing-xlarge;
+  }
+
+  .nuestro-espacio_imagenes{
+    width: 100%;
+    
+  }
+  
+  .nuestro-espacio_imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .nuestro-espacio_imagen_texto{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  
+  .nuestro-espacio_parrafo{
+    font-size: $text-small;
+  }
+ 
+
+  @media(max-width: 517px){
+    .nuestro-espacio_titulo{
+      font-size: 3.6rem
+    }
+    .nuestro-espacio_parrafo{
+      font-size: 1.4rem;
+    }
+  }

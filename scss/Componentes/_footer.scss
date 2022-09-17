@@ -1,0 +1,19 @@
+footer{
+  @include flex (column, space-around, center);
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-size: $text-small;
+  }
+  
+
+  
+.footer__logo{
+  color: white;
+  font-size: $text-small;
+  padding-right: 10px;
+
+  &:hover{
+    color:#d39e00
+  }
+}
+

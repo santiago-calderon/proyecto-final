@@ -1,0 +1,32 @@
+.presentacion{
+  padding-top: 13rem ;
+}
+
+
+.presentacion-titulo{
+    font-size: $text-xxlarge;
+    font-weight: bold;
+    padding-bottom: $spacing-medium
+  }
+  
+  
+  .presentacion-texto{
+    font-size: $text-base;
+  }
+
+  .presentacion-button{
+    width: 200px;
+    font-size: $text-base
+  }
+  
+  .presentacion-imagen{
+    max-width: 100%;
+    height: auto;
+
+  }
+
+  @media(max-width:576px){
+    .presentacion-titulo{
+      font-size: $text-large;
+    }
+  }

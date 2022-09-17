@@ -1,0 +1,42 @@
+.gallery{
+    
+    a{ 
+        display: block;
+        position: relative;
+        overflow: hidden;
+
+
+        img{
+            height: auto;
+            width: 100%;
+            transition: transform 0.5s;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+            object-fit: cover;
+            }  
+
+        &:hover{
+            img{
+                filter: blur(2px);
+                transform: scale(1.05);
+            }
+        }
+    }
+
+}
+
+.domo1__tittle{
+    padding-top:$spacing-xlarge;
+}
+
+.slideshow-image{
+    filter:brightness(60%)
+}
+
+
+
+
+@media(max-width: 575px){
+    .uk-position-bottom{
+        padding-bottom: 50px;
+    }
+}
