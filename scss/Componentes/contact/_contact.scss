@@ -99,6 +99,8 @@
     margin-bottom: 9rem;
 }
 
+
+
 @media(max-width: 575px){
 
     .contact__tittle {
@@ -118,11 +120,29 @@
         display: none;
     }
 
+
+}
+@media(max-width: 768px){
+.tittle-gracias{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.text-gracias{
+    font-size: 2rem;
+    font-weight: bold
+}
+
+
+.link-gracias{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
 }
 
 /* LARGE SIZE */
 @media(min-width: 700px) {
-
+ 
     .contact-form{
         font-size: 0.7rem
     }

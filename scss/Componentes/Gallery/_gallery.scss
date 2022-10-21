@@ -40,3 +40,14 @@
         padding-bottom: 50px;
     }
 }
+
+
+@media(min-width: 768px){
+    .gallery-image{
+        height: 300px;
+        width: 600px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+ 
