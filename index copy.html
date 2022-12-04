@@ -79,7 +79,7 @@
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgb(165, 130, 26);
 }
 .btn_carousel:after {
   content: "";
@@ -99,7 +99,7 @@
   left: 0;
   width: 0%;
   height: 100%;
-  background-color:rgba(241,185,14,0.692);
+  background-color:rgba(241,185,14);
   transition: all 0.3s;
   border-radius: 10rem;
   z-index: -1;
@@ -125,6 +125,10 @@
   font-size: 1.9rem;
   padding-left:0.6rem
 }
+
+.price_text{
+  font-size: xx-large;
+}
       </style>
       
       <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
@@ -139,7 +143,7 @@
             <div class="carousel-caption ">
               <h2 class="titulo-carousel text-uppercase wow animate__fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".5s">Vení a disfrutar</h2>
               <p class="parrafo-carousel wow animate__fadeInRight" data-wow-duration="1.5s" data-wow-delay=".5s">Una experiencia única.</p>
-              <a href="#glamping"><button class="btn_carousel wow animate__fadeInRight" data-wow-duration="1.5s" data-wow-delay=".5s">VER DOMOS GLAMPING</button></a>
+              <a href="#domos"><button class="btn_carousel wow animate__fadeInRight" data-wow-duration="1.5s" data-wow-delay=".5s">VER DOMOS GLAMPING</button></a>
             </div>
           
           </div>
@@ -269,29 +273,60 @@
       </section>
 
 
-      <section class="domos container">
+      <section id="domos" class="domos container">
         <div class="card-deck mt-5 pt-5">
           <div class="card">
-            <img class="card-img-top img-fluid domos_card-images" src="./Images/domo-nido.jpg" alt="Card image cap">
+            <div class="uk-text-center">
+              <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="./Images/TACUARA (3).jpg" width="1800" height="1200" alt="">
+                  <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle uk-flex-column">
+                      <p class="uk-h4 uk-margin-remove price_text">Desde $35.000 la noche</p>
+                      <p class="uk-h4 ">Los precios puede variar según la fecha seleccionada</p>
+                       <a href="./pages/reservar.html"><button class="btn_carousel">RESERVAR</button></a>
+                  </div>
+              </div>
+          </div>
             <div class="card-body">
-              <h5 class="card-t">Domo Nido</h5>
-              <p class="card-p text-justify">Domo totalmente equipado, suspendido a tres metros de altura sobre una estructura de madera con una vista panorámica del campo y la laguna para disfrutar de los más hermosos atardeceres. Con un sillón cama y cama queen size o dos camas twin size, según tu necesidad. Baño privado completo, cocina completa con pava eléctrica y horno eléctrico, aire acondicionado, smart tv, heladera, WiFi. En la planta baja cuenta un espacio privado equipado con pileta de cocina, anafe, mesa, juego de living, fogonero con parrilla, y muelle con salida a la laguna. </p>
-              <a href="./pages/galeria.html#domo1"><button type="button" class="btn btn-warning">Ver más</button></a>
+              <h5 class="card-t">Domo Tacuara</h5>
+              <p class=" text-justify card-p mt-0">Domo totalmente equipado, suspendido a tres metros de altura sobre una estructura de madera con una vista panorámica del campo y la laguna para disfrutar de los más hermosos atardeceres. Con un sillón cama y cama queen size o dos camas twin size, según tu necesidad. Baño privado completo, cocina completa con pava eléctrica y horno eléctrico, aire acondicionado, smart tv, heladera, WiFi. En la planta baja cuenta un espacio privado equipado con pileta de cocina, anafe, mesa, juego de living, fogonero con parrilla, y muelle con salida a la laguna.</p>
+              <div class="d-flex container justify-content-around">
+              <a href="./pages/galeria.html#domo1"><button type="button" class="btn btn-warning fs-4">Ver más</button></a>
+              <a href="./pages/galeria.html#domo1"><button type="button" class="btn btn-warning">Reservar</button></a>
+            </div>
             </div> 
           </div>
 
 
           
           <div class="card">
-            <img class="card-img-top img-fluid domos_card-images" src="./Images/domo-aventura.JPG" alt="Card image cap">
+            <div class="uk-text-center">
+              <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="./Images/domo_aventura_nueva.jpg" width="1800" height="1200" alt="">
+                  <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle uk-flex-column">
+                      <p class="uk-h4 uk-margin-remove price_text">Desde $38.000 la noche</p>
+                      <p class="uk-h4 ">Los precios puede variar según la fecha seleccionada</p>
+                      <a href="./pages/reservar.html"><button class="btn_carousel">RESERVAR</button></a>
+                  </div>
+              </div>
+          </div>
             <div class="card-body">
               <h5 class="card-t">Domo Aventura</h5>
               <p class="card-p text-justify">Para venir con mucha compañia, el más grande del establecimiento. Totalmente equipado, cuenta con una cama queen size o dos twin size según tu necesidad, sillón cama y un desván con cama para dos niños. Baño privado completo, cocina completa con pava eléctrica y horno eléctrico, aire acondicionado, smart tv, heladera, WiFi. En el exterior, un deck de madera equipado con pileta de cocina, anafe, mesa, juego de living, fogonero con parrilla, y muelle con salida a la laguna.</p>
               <a href="./pages/galeria.html#domo2"><button type="button" class="btn btn-warning">Ver más</button> </a>
             </div>
           </div>
+          
           <div class="card">
-            <img class="card-img-top img-fluid domos_card-images" src="./Images/domo-tacuara.jpg" alt="Card image cap">
+            <div class="uk-text-center">
+              <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="./Images/TACUARA (3).jpg" width="1800" height="1200" alt="">
+                  <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle uk-flex-column">
+                      <p class="uk-h4 uk-margin-remove price_text">Desde $30.000 la noche</p>
+                      <p class="uk-h4 ">Los precios puede variar según la fecha seleccionada</p>
+                      <a href="./pages/reservar.html"><button class="btn_carousel">RESERVAR</button></a>
+                  </div>
+              </div>
+          </div>
             <div class="card-body">
               <h5 class="card-t">Domo Tacuara</h5>
               <p class=" text-justify card-p">Domo escondido entre una densa vegetación de cañas. Con un sillón cama y cama queen size o dos camas twin size, según tu necesidad. Baño privado completo, cocina completa con pava eléctrica y horno eléctrico, aire acondicionado, smart tv, heladera, WiFi. En el exterior, un deck de madera equipado con pileta de cocina, anafe, mesa, juego de living, fogonero con parrilla, y muelle con salida a la laguna. </p>
